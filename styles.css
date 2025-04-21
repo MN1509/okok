@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Winky+Rough);
+
+body{
+  padding: 25px;
+  margin:10px 10px;
+  font-family:'Winky Rough';
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 140%;
+  background-image: url("https://assets.onecompiler.app/43dyqrdnn/43fg7p4et/Asset%205mdpi.png");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2; /* Adjust transparency */
+  z-index: -1; /* Ensures it stays behind other content */
+}
+
+h1,h2,p,ul,ol{color:#b92d11;}
+
+.bet{
+  display: flex;
+  justify-content: center; /* Rata tengah horizontal */
+  align-items: center; /* Rata tengah vertikal */
+  height: 100vh; /* Mengisi seluruh tinggi viewport */
+  margin: 0;
+  flex-direction: column;
+}
+
+.awal{
+  font-size: 60px;
+  color:#b92d11;
+}
+
+hr {
+  border-top: 3px dashed orangered; 
+}
+
+.cup{
+  border-top: 1px solid orangered; 
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+.title {
+	color: #b92d11;
+	text-align:center;
+}
+
+.but {text-align:center}
+
+.button {
+  border:none;
+  padding:10px 10px;
+  text-decoration:none;
+  margin-bottom: 20px;
+  border-radius:10px;
+  background-color:tomato;
+  color:white;
+}
+
+.on{
+  border: 1px solid tomato;
+  padding:10px 10px;
+  text-decoration:none;
+  margin-bottom: 20px;
+  border-radius:10px;
+  color:tomato;
+}
+
+.on::before {
+  background-color:white;
+  opacity: 0.8; /* Makes only the background transparent */
+  z-index: -1;
+}
+
+.button:hover{
+  background:orangered;
+  color:white;
+}
+
+div{margin:20px 0;}
